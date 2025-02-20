@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --hoverColor: #f0c;
+    --backgroundColor: radial-gradient(circle,
+            rgba(57, 30, 107, 1) 0%,
+            rgba(30, 14, 66, 1) 100%);
+    --abtSectionTxtColor: rgb(211, 93, 112);
+}
+
+.dealerSection {
+    /* border: 2px solid red; */
+    background: url('./images/WEBSITE\ BG\ DESKTOP\ SIZE\ 2\ B.jpg');
+    height: 100vh;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.innerDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 12rem;
+    left: 14rem;
+}
+
+.formDiv {
+    padding: 1rem;
+    border-radius: 5px;
+    /* width: 410px; */
+    /* width: 20vw; */
+    /* background: linear-gradient(90deg, #5D54A4, #73b789); */
+    background-color: white;
+    /* box-shadow: -1px 0px 16px #87585c; */
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: -1px 0px 16px;
+    backdrop-filter: blur(5px);
+    border: none;
+    text-decoration: none;
+}
+
+.socialIcons {
+    display: flex;
+    gap: 3rem;
+    font-size: 2rem;
+
+    i {
+        color: rgb(245, 11, 11);
+
+        &:hover {
+            transition: all ease-in-out;
+            color: blue;
+            border-radius: 50%;
+        }
+    }
+}
+
+.hidden_text {
+    color: green;
+    display: none;
+}
+
+.btn-link {
+    text-decoration: none;
+    border: none;
+    /* background-color: rgb(112, 240, 112); */
+    background-color: springgreen;
+    padding: 10px 19px;
+    border-radius: 5px;
+
+    a {
+        text-decoration: none;
+        border: none;
+        font-weight: bold;
+        color: black;
+        font-size: 1.1rem;
+
+        &:hover {
+            color: white;
+        }
+    }
+
+    &:hover {
+        background-color: blue;
+        color: white;
+    }
+}
+
+.btnDiv {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+/* FONTS  */
+.merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@media (max-width: 425px) {
+    .dealerSection {
+        background: url('./images/resize-17394407741909568140dealer2.jpeg');
+    }
+
+    .formDiv {
+        /* width: 392px; */
+        width: auto;
+        border-radius: 10px;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.5);
+        /* backdrop-filter: blur(5px);  */
+
+        /* backdrop-filter: blur(5px);  */
+        /* background: rgba(255, 255, 255, 0.1); */
+    }
+
+    .innerDiv {
+        top: 5rem;
+        left: 1rem;
+    }
+
+    .socialIcons {
+        margin-top: 10rem;
+    }
+    .btn-link a{
+        font-size: small;
+    }
+        
+}
+
+@media (min-width: 430px) {
+    .formDiv {
+        width: auto;
+    }
+}

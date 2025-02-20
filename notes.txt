@@ -1,0 +1,40 @@
+ <!-- FORM  -->
+      <div class="formDiv">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label merriweather-bold">
+              <i class="fa-solid fa-user"></i>
+              Username
+            </label>
+            <input type="text" class="form-control" id="name" placeholder="Username" required>
+          </div>
+          <div class="mb-3">
+            <label for="name" class="form-label merriweather-bold">
+              <i class="fa-solid fa-lock"></i>
+              Password
+            </label>
+            <input type="text" class="form-control" id="name" placeholder="Password" required>
+          </div>
+          <button type="submit" class="btn-link" style="text-decoration: none;">
+            <a href="" class="merriweather-bold">
+              LOG IN NOW &nbsp; &nbsp;<i class="fa-solid fa-chevron-right"></i>
+            </a>
+          </button>
+        </form>
+      </div>
+    </div>
+    <div class="socialIcons">
+      <a href="">
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+      <a href="">
+        <i class="fa-brands fa-whatsapp"></i>
+      </a>
+      <a href="">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="">
+        <i class="fa-brands fa-twitter"></i>
+      </a>
+
+    </div>
